@@ -10,4 +10,4 @@ int main() {
 	char str[] = "abcdef";
 	abc(str);
 	printf("str[]=%s", str);
-}
+}h
