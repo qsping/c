@@ -1,0 +1,5 @@
+﻿  源1.c
+C:\Users\19745\Desktop\C语言\3.8\源1.c(6,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+C:\Users\19745\Desktop\C语言\3.8\源1.c(6,9): warning C4313: "printf": 格式字符串中的 "%s" 与类型为 "int" 的参数 1 冲突
+C:\Users\19745\Desktop\C语言\3.8\源1.c(5,7): warning C4047: “初始化”:“char”与“char [4]”的间接级别不同
+  Project4.vcxproj -> C:\Users\19745\Desktop\C语言\3.7\Project4\x64\Debug\Project4.exe

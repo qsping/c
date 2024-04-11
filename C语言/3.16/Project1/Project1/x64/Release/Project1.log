@@ -1,0 +1,7 @@
+﻿  main.c
+C:\Users\19745\Desktop\C语言\3.16\Project1\Project1\main.c(283,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Project1.vcxproj -> C:\Users\19745\Desktop\C语言\3.16\Project1\x64\Release\Project1.exe

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\19745\\Desktop\\C\u8BED\u8A00\\3.7\\Project3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA1E87F-173E-444A-A925-9B81337467DB}|Project3\\Project3.vcxproj|C:\\Users\\19745\\Desktop\\C\u8BED\u8A00\\3.7\\Project3\\Project3\\while\u5FAA\u73AF.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5CA1E87F-173E-444A-A925-9B81337467DB}|Project3\\Project3.vcxproj|solutionrelative:Project3\\while\u5FAA\u73AF.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA1E87F-173E-444A-A925-9B81337467DB}|Project3\\Project3.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UCRT\\STDIO.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "while\u5FAA\u73AF.c",
+              "DocumentMoniker": "C:\\Users\\19745\\Desktop\\C\u8BED\u8A00\\3.7\\Project3\\Project3\\while\u5FAA\u73AF.c",
+              "RelativeDocumentMoniker": "Project3\\while\u5FAA\u73AF.c",
+              "ToolTip": "C:\\Users\\19745\\Desktop\\C\u8BED\u8A00\\3.7\\Project3\\Project3\\while\u5FAA\u73AF.c*",
+              "RelativeToolTip": "Project3\\while\u5FAA\u73AF.c*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-07T15:16:41.532Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "stdio.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ViewState": "AQIAAHwCAAAAAAAAAIAxwIUCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-08T07:20:13.442Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
