@@ -1,0 +1,9 @@
+1.选择语句
+if
+Switch case default
+2.循环语句
+while
+do while
+for
+getchar
+putchar
