@@ -1,4 +1,0 @@
-﻿  main.c
-F:\单片机\c\洛谷\4.17\Project1\Project1\main.c(109,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-F:\单片机\c\洛谷\4.17\Project1\Project1\main.c(123,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  Project1.vcxproj -> F:\单片机\c\洛谷\4.17\Project1\x64\Debug\Project1.exe
