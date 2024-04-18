@@ -1,0 +1,4 @@
+﻿  main.c
+F:\单片机\c语言\洛谷刷题\4.18\Project1\Project1\main.c(6,6): warning C4101: “time1”: 未引用的局部变量
+F:\单片机\c语言\洛谷刷题\4.18\Project1\Project1\main.c(6,13): warning C4101: “time2”: 未引用的局部变量
+  Project1.vcxproj -> F:\单片机\c语言\洛谷刷题\4.18\Project1\x64\Debug\Project1.exe
