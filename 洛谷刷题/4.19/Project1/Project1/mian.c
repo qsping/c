@@ -28,6 +28,7 @@ int main()
 	int Num = 10000;
 	int temp = 0;
 	unsigned int k = 0;
+	int flag = 0;
 	begin:
 	while (scanf("%d", &k) == 1)
 	{
@@ -35,11 +36,13 @@ int main()
 		for (Num = 10000; Num <= 30000; Num++)
 		{
 			temp = Num;
-			if ((temp / 100 % k == 0) && (((temp / 10) % 1000 )% k == 0) &&( (temp % 1000) % k == 0))
+			if ((temp / 100 % k == 0) && (((temp / 10) % 1000) % k == 0) && ((temp % 1000) % k == 0))
+			{
 				printf("%d\n",temp);
-			temp = 0;
+				flag = 1;
+			}			
 		}
-		if (temp == 0)printf("No");
+		if (flag == 0)printf("No");
 	}
 	return 0;
 }
