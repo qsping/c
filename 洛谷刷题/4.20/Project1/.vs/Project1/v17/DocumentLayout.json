@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "F:\\\u5355\u7247\u673A\\c\u8BED\u8A00\\\u6D1B\u8C37\u5237\u9898\\4.20\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B0AF25C-6C11-446D-BE8A-BA6C434DA6D6}|Project1\\Project1.vcxproj|F:\\\u5355\u7247\u673A\\c\u8BED\u8A00\\\u6D1B\u8C37\u5237\u9898\\4.20\\Project1\\Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7B0AF25C-6C11-446D-BE8A-BA6C434DA6D6}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\\u5355\u7247\u673A\\c\u8BED\u8A00\\\u6D1B\u8C37\u5237\u9898\\4.20\\Project1\\Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\\u5355\u7247\u673A\\c\u8BED\u8A00\\\u6D1B\u8C37\u5237\u9898\\4.20\\Project1\\Project1\\Project1.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1\\Project1.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project1.vcxproj",
+              "DocumentMoniker": "F:\\\u5355\u7247\u673A\\c\u8BED\u8A00\\\u6D1B\u8C37\u5237\u9898\\4.20\\Project1\\Project1\\Project1.vcxproj",
+              "RelativeDocumentMoniker": "Project1\\Project1.vcxproj",
+              "ToolTip": "F:\\\u5355\u7247\u673A\\c\u8BED\u8A00\\\u6D1B\u8C37\u5237\u9898\\4.20\\Project1\\Project1\\Project1.vcxproj",
+              "RelativeToolTip": "Project1\\Project1.vcxproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000698|",
+              "WhenOpened": "2024-04-20T14:30:14.922Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Project1\\main.c",
               "ToolTip": "F:\\\u5355\u7247\u673A\\c\u8BED\u8A00\\\u6D1B\u8C37\u5237\u9898\\4.20\\Project1\\Project1\\main.c",
               "RelativeToolTip": "Project1\\main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA1wBYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-20T10:56:23.48Z",
               "EditorCaption": ""

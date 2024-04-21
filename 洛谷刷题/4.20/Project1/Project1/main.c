@@ -7,7 +7,9 @@ int main()
 	int flag = 0;
 	int arr[1000] = { 0 };
 	scanf("%d", &n);	
-	if (n < 1 || n >1000) return 0;;
+	if (n < 1 || n >1000) return 0;
+	else
+	{
 		for (i = 0; i < n; i++)
 		{
 			arr[0] = n;
@@ -18,6 +20,7 @@ int main()
 			if (abs(arr[i] - arr[i + 1]) >= 1 && abs(arr[i] - arr[i + 1]) <= n - 1)										
 				flag = 1;											
 		}
+	}
 	if (flag == 1)printf("Jolly");
 	else printf("Not jolly");
 	return 0;
