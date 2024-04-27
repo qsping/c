@@ -1,0 +1,3 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 scanf，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 printf，函数 main 中引用了该符号
+F:\单片机\c语言\洛谷刷题\4.22\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 2 个无法解析的外部命令

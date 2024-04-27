@@ -1,0 +1,7 @@
+﻿  main.c
+F:\单片机\c语言\洛谷刷题\4.21\Project1\Project1\main.c(34,5): error C2085: “main”: 不在形参表中
+F:\单片机\c语言\洛谷刷题\4.21\Project1\Project1\main.c(35,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+F:\单片机\c语言\洛谷刷题\4.21\Project1\Project1\main.c(38,8): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“int”
+F:\单片机\c语言\洛谷刷题\4.21\Project1\Project1\main.c(39,8): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“int”
+F:\单片机\c语言\洛谷刷题\4.21\Project1\Project1\main.c(38,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\单片机\c语言\洛谷刷题\4.21\Project1\Project1\main.c(39,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
