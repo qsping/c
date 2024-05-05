@@ -120,16 +120,100 @@
 //英语课上学到了 apple 这个词语，想用它来造句。如果她吃了 1 个苹果，
 //就输出 Today, I ate 1 apple.；如果她没有吃，那么就把 1 换成 0；
 //如果她吃了不止一个苹果，别忘了 apple 这个单词后面要加上代表复数的 s。你能帮她完成这个句子吗？
+//int main()
+//{
+//	int n = 0;	
+//	scanf("%d", &n);
+//	switch (n)
+//	{
+//		case 0:printf("Today, I ate 0 apple."); break;
+//		case 1:printf("Today, I ate 1 apple."); break;
+//
+//	}
+//	if(n>1)printf("Today, I ate %d apples.",n); 
+//	return 0;
+//}
+//int main()
+//{
+//	int arr[4000] = { 0 };
+//	int n = 0;
+//	int m = 0;
+//	int i = 0;
+//	int j = 0;
+//	int k = 0;
+//	int flag = 0;
+//	int* p = arr;
+//	int ret = 0;
+//	scanf("%d", &n);
+//	for (i = 0; i < n ; i++)
+//	{
+//		if (ret == n * n)break;
+//		if (flag == 0)
+//		{
+//			scanf("%d", &j);
+//			ret += j;
+//			for (k = 0; k < j; k++)
+//			{
+//				*(p+m)= 0;
+//				m++;
+//			/*	p++;*/
+//			}		
+//			flag = 1;
+//		}
+//	  if (flag == 1)
+//		{
+//			scanf("%d", &j);
+//			ret += j;
+//			for (k=0; k < j; k++)
+//			{
+//				*(p+m) = 1;
+//				m++;
+//			}		
+//			flag = 0;
+//		}
+//	}
+//	for (i = 0; i < n*n; i++)
+//	{
+//		printf("%d", arr[i]);
+//		if ((i+1)%n == 0)printf("\n");
+//	}
+//	return 0;
+//}
 int main()
 {
 	int n = 0;	
+	int m = 0;	
+	int ret = 0;	
+	int flag = 0;
+	int i = 0;	
+	int arr[10000];
+	int* p = arr;
 	scanf("%d", &n);
-	switch (n)
+	while (1 == scanf("%d", &m))
 	{
-		case 0:printf("Today, I ate 0 apple."); break;
-		case 1:printf("Today, I ate 1 apple."); break;
-
+		ret += m;
+		if (flag == 0)
+		{
+			for (i = 0; i < m; i++)
+			{
+				*p++ = 0;
+			}
+			flag = 1;
+		}
+		else if (flag == 1)
+		{
+			for (i = 0; i < m; i++)
+			{
+				*p++ = 1;
+			}
+			flag = 0;
+		}
+		if (ret == n * n)break;
 	}
-	if(n>1)printf("Today, I ate %d apples.",n); 
+		for (i = 0; i < n * n; i++)
+		{
+			printf("%d", arr[i]);
+			if ((i + 1) % n == 0)printf("\n");
+		}
 	return 0;
 }
