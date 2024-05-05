@@ -1,0 +1,9 @@
+﻿  main.c
+F:\单片机\c语言\洛谷刷题\5.5\Project1\Project1\main.c(133,16): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  F:\单片机\c语言\洛谷刷题\5.5\Project1\Project1\main.c(133,16):
+  占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  F:\单片机\c语言\洛谷刷题\5.5\Project1\Project1\main.c(133,16):
+  缺失的可变参数 1 为格式字符串“%d”所需
+  
+F:\单片机\c语言\洛谷刷题\5.5\Project1\Project1\main.c(126,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Project1.vcxproj -> F:\单片机\c语言\洛谷刷题\5.5\Project1\x64\Debug\Project1.exe
