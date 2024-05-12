@@ -83,67 +83,144 @@
 
 using namespace std;
 
-class Ele {
-public:
-    bool set_power(int power);
-    double pay();
-
-    Ele() {
-        // 直接在构造函数中设置价格  
-        _price[0] = 0.4463;
-        _price[1] = 0.4663;
-        _price[2] = 0.5663;
-    }
-
-private:
-    int _power;
-    double _price[3];
-    double _pay;
-
-    // 辅助函数，不需要对外暴露  
-    void powerdiv(int arr[3]) {
-        if (_power <= 150) {
-            arr[0] = _power;
-            arr[1] = 0;
-            arr[2] = 0;
-        }
-        else if (_power < 400) {
-            arr[0] = 150;
-            arr[1] = _power - 150;
-            arr[2] = 0;
-        }
-        else {
-            arr[0] = 150;
-            arr[1] = 250;
-            arr[2] = _power - 400;
-        }
-    }
-};
-
-bool Ele::set_power(int power) {
-    _power = power;
-    return true;
+//class Ele {
+//public:
+//    bool set_power(int power);
+//    double pay();
+//
+//    Ele() {
+//        // 直接在构造函数中设置价格  
+//        _price[0] = 0.4463;
+//        _price[1] = 0.4663;
+//        _price[2] = 0.5663;
+//    }
+//
+//private:
+//    int _power;
+//    double _price[3];
+//    double _pay;
+//
+//    // 辅助函数，不需要对外暴露  
+//    void powerdiv(int arr[3]) {
+//        if (_power <= 150) {
+//            arr[0] = _power;
+//            arr[1] = 0;
+//            arr[2] = 0;
+//        }
+//        else if (_power < 400) {
+//            arr[0] = 150;
+//            arr[1] = _power - 150;
+//            arr[2] = 0;
+//        }
+//        else {
+//            arr[0] = 150;
+//            arr[1] = 250;
+//            arr[2] = _power - 400;
+//        }
+//    }
+//};
+//
+//bool Ele::set_power(int power) {
+//    _power = power;
+//    return true;
+//}
+//
+//double Ele::pay() {
+//    int arr[3];
+//    powerdiv(arr);
+//
+//    _pay = 0;
+//    if (arr[0] > 0) _pay += arr[0] * _price[0];
+//    if (arr[1] > 0) _pay += arr[1] * _price[1];
+//    if (arr[2] > 0) _pay += arr[2] * _price[2];
+//
+//    return _pay;
+//}
+//
+//    int main() {
+//        int power;
+//        cin >> power;
+//        Ele Yu;
+//        Yu.set_power(power);
+//        double fee = Yu.pay();
+//        // 使用 setprecision 和 fixed 来保留两位小数  
+//        cout << fixed << setprecision(1) << fee << endl;
+//        return 0;
+//}
+//小玉开心的在游泳，可是她很快难过的发现，自己的力气不够，游泳好累哦。
+//已知小玉第一步能游 2 米，可是随着越来越累，力气越来越小，
+//她接下来的每一步都只能游出上一步距离的  98 % 。现在小玉想知道，
+//如果要游到距离 s 米的地方，她需要游多少步呢。请你编程解决这个问题
+//int clcn(float n,float m) {
+//	int count=1;
+//	float M = 2;
+//	while (n < m)
+//	{			
+//		n *= (1 - 0.02);		
+//		M += n ;
+//
+//		count++;
+//		if (M >= m)break;
+//	}
+//	if (m == 0)return 0;
+//	return count;
+//}
+//int main() {
+//	float m = 0;
+//	cin >> m;
+//	float n = 2;
+//	cout << clcn(n, m) << endl;
+//	return 0;
+//}
+int zhuanhuan_D(int n,int m) {
+	int num = 0;
+	int temp = 1;
+	while (1)
+	{		
+		num +=m%10*temp;
+		if (m < 10)break;
+		temp *= n;
+		m /= 10;		
+	}
+	return num;
 }
-
-double Ele::pay() {
-    int arr[3];
-    powerdiv(arr);
-
-    _pay = 0;
-    if (arr[0] > 0) _pay += arr[0] * _price[0];
-    if (arr[1] > 0) _pay += arr[1] * _price[1];
-    if (arr[2] > 0) _pay += arr[2] * _price[2];
-
-    return _pay;
+int zhuanhuan_B(int n, int m) {
+	if (m >= n)
+	{
+		return  zhuanhuan_B(n, m/n)*10+m%n;
+	}
+	else
+		return m;
 }
-
-    int main() {
-        int power;
-        cin >> power;
-        Ele Yu;
-        Yu.set_power(power);
-        double fee = Yu.pay();
-        // 使用 setprecision 和 fixed 来保留两位小数  
-        cout << fixed << setprecision(1) << fee << endl;
-        return 0;
+int huiwen(int m) {
+	int num = 0;
+	while (1) {
+		num = num * 10+m%10;
+		if (m < 10)break;
+		m=m / 10;
+	}
+	return num;
+}
+int main() {  
+	int N = 0;
+	int M = 0;
+	/*int ans = 1;
+	int temp = 0;
+	cin >> N;
+	cin >> M;
+	while (1)
+	{	
+		temp = huiwen(M) + M;
+		if (huiwen( temp) == temp)break;
+		M = temp;
+		ans++;
+		if (ans > 30)break;
+	}
+	if (ans > 30)
+		cout << "Impossible!" << endl;
+	else
+		cout << "STEP=" << ans << endl;*/
+	cout << zhuanhuan_B(2, 7) << endl;
+	cout << zhuanhuan_D(2, 110) << endl;
+	return 0;
 }
